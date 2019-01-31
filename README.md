@@ -1,2 +1,2 @@
-# freecodecampparis.github.io
+# freeCodeCampParis.github.io
 (In progress)
