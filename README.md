@@ -1,4 +1,4 @@
-<h1 align="center">freeCodeCamp - Landing page - Survey form</h1>
+<h1 align="center">freeCodeCamp - Landing page</h1>
 
 <h2 align="center">Project made for <a href="https://www.freecodecamp.org/">freeCodeCamp</a><br>"Responsive Web Design" certification</h2>
 
