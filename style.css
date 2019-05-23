@@ -68,6 +68,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 /* --------------------------- */
@@ -76,6 +80,11 @@ body {
 
 #header-img {
     height: 25px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
 /* ------------------------ */
@@ -101,10 +110,22 @@ body {
     color: var(--fcc-dark-green, green);
 }
 
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 /* Main content => */
 #main-content {
-    width: 80%;
+    width: 90%;
     margin: auto;
+}
+
+section {
+    height: 400px;
+    background-color: pink;
+    border-bottom: 1px solid purple;
 }
 
 /* #header-text {
@@ -117,7 +138,6 @@ body {
     font-family: 'saxmonoregular', 'Lato', sans-serif;
     color: var(--fcc-dark-green, green);
     font-size: 50px;
-    text-align: center;
     margin-top: 3%;
 }
 
